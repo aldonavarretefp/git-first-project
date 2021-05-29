@@ -4,19 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Proyecto para Git</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-
-        <div class = "section-1">
-            <img src="./img/cat.png" alt="Cat" class = "cat">
-            <img src="./img/dog.png" alt="Dog" class = "dog">
+    
+    <div class="container m-5 ">
+        <div class="row mb-5">
+            <h1 class="display-1 mb-lg-5 mb-md-3 mb-sm-1 text-light ">Welcome to the pet club!</h1>
         </div>
-        <div>
-            <a class= "boton-gato"href="/#">Mi gato</a>
-            <a class= "boton-perro" href="/#">Mi perro</a>
+        <div class="justify-content-end">
+            <h2 class="text-light display-2 justify-content-end">Select the object you want to make a sound, and enjoy! :)</h2>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col mx-auto">
+                <div class="row mx-auto my-auto justify-content-center">
+                        <img id= "cat" src="./img/cat.png" alt="Cat" class = "cat w-75 mb-5 mt-5">
+                </div>
+                <div class="row ">
+                    <a class= "boton-gato w-75" id = "btn-gato"href="/#">Mi gato</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row justify-content-center">
+                    <img id= "dog" src="./img/dog.png" alt="Dog" class = "dog w-75">
+                </div>
+                <div class="row ">
+                    <a class= "boton-perro w-75 justify-content-center align-content-center" href="/#" >Mi perro</a>
+                </div>
+
+            </div>
         </div>
     </div>
     <script src="app.js"></script>
